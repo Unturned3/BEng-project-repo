@@ -1,0 +1,31 @@
+
+motorized: false
+max_angular_vel: 90
+
+n_frames: 900
+dt: 0.0333333
+kp: 2
+drag: 1
+angular_err_tolerance: 5
+
+max_fov: 75
+min_fov: 15
+
+# Init pose constraints
+min_init_roll: -5
+max_init_roll: 5
+min_init_tilt: -5
+max_init_tilt: 0
+
+# Other pose constraints
+min_roll: -5
+max_roll: 5
+min_tilt: -15
+max_tilt: 0
+
+zoom_rate: 1.0
+zoom_prob: 0.75
+zoom_fovs: [30, 45, 60, 75]
+noise_scale: [25, 25, 25]
+
+loop_closure_prob: 0.2

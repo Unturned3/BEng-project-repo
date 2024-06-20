@@ -1,0 +1,11 @@
+
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+---
+BasedOnStyle: Google
+SpaceBeforeCpp11BracedList: true
+BreakBeforeBraces: Stroustrup
+ColumnLimit: 80
+IndentWidth: 4
+AccessModifierOffset: -4
+IncludeBlocks: Preserve
